@@ -1,13 +1,60 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+padding: 0;
+font-family: sans-serif;
+background: #eba8eb;
+color: black;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-center{
+  text-align: center;
+}
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+.ListItems{
+  background: #f5dfe5;
+  color: #4d164d;
+}
+.ListItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+.ListItems span{
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+.ListItems span.title{
+  background: #e77fe7;
+  color:black;
+}
+.ListItems span.task , form input[type=text]{
+  width: 60%;
+}
+.ListItems span.action , form input[type=submit]{
+  width: 40%;
+}
+.ListItems span.icon{
+  color:#e70f0f ;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+form input[type=submit]{
+  background: #4d164d;
+  border: 0.3px solid #4d164d;
+  color: #ccc;
+  cursor: pointer;
 }
