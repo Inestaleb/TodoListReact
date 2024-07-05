@@ -11,7 +11,7 @@ class AddItem extends Component{
     }
     handleSubmit = (e)=>{
         e.preventDefault();
-      if(e.target.task.value==''){
+      if(e.target.task.value===''){
         return false
       }else{
         this.props.AddItem(this.state)
